@@ -4,45 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LiningLink Reports</title>
-    <meta name="description" content="Monthly YouTube performance reports, built as Google Slides presentations in your own Google Drive.">
+    <meta name="description" content="LiningLink Reports by Lining Link LLC: monthly YouTube performance reports, built as Google Slides presentations in your own Google Drive.">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50">
     <main class="max-w-3xl mx-auto px-4 py-12 font-sans text-gray-700 leading-relaxed space-y-8">
         <header class="space-y-3">
-            <p class="text-sm text-gray-500"><a href="/" class="underline">Lining Link</a></p>
+            <p class="text-sm text-gray-500"><a href="/" class="underline">Lining Link</a> · <a href="/product.html" class="underline">Public Apps</a></p>
             <h1 class="text-4xl font-bold text-gray-800">LiningLink Reports</h1>
             <p class="text-xl text-gray-600">Monthly YouTube performance reports, built as Google Slides presentations in your own Google Drive.</p>
+            <p class="text-sm text-gray-500">A product of <a href="/" class="underline">Lining Link LLC</a>, Pasadena, California. The application runs at <a href="https://app.lininglink.com" class="text-blue-600 hover:text-blue-800 underline">app.lininglink.com</a>.</p>
         </header>
 
         <section class="bg-white rounded-lg shadow-sm p-6 space-y-3">
-            <h2 class="text-2xl font-semibold text-gray-800">What it does</h2>
-            <p>LiningLink Reports is a service for businesses that report on their YouTube channels every month. You give it your own report template (a Google Slides presentation, with your layout, branding and page size) Each month, with one click, it fills a copy of that template with your channel's numbers, tables and charts and saves it in your Google Drive.</p>
+            <h2 class="text-2xl font-semibold text-gray-800">What LiningLink Reports does</h2>
+            <p>LiningLink Reports is a service for businesses that report on their YouTube channels every month. You give it your own report template: a Google Slides presentation with your page size, so the report comes out in your layout. Each month, with one click, it copies that template, draws your channel's numbers, tables and charts on it, and saves the finished presentation in your Google Drive.</p>
+            <p>Each report covers:</p>
             <ul class="list-disc ml-6 space-y-1">
                 <li>Views, watch time, subscribers and engagement, with the change from the previous month</li>
-                <li>Top videos, revenue and top revenue drivers</li>
+                <li>Top videos, estimated revenue and top revenue drivers</li>
                 <li>Traffic sources, top search terms, and audience age and gender</li>
             </ul>
         </section>
 
         <section class="bg-white rounded-lg shadow-sm p-6 space-y-3">
-            <h2 class="text-2xl font-semibold text-gray-800">How it uses your Google data</h2>
-            <ul class="list-disc ml-6 space-y-2">
-                <li><strong>Google Slides:</strong> the app can open only the template you pick, and the reports it creates. It can't see any other file in your Drive.</li>
-                <li><strong>YouTube:</strong> read-only access to the analytics, estimated revenue and public video details of the channel you choose, used only to fill your reports. Nothing on your channel is ever changed.</li>
-                <li><strong>Nothing is kept:</strong> report data is used only while your report is built. The only copy is the presentation in your own Drive. Your connection is stored encrypted, and you can revoke it at any time.</li>
-            </ul>
-            <p>Details are in the <a href="/reports/privacy" class="text-blue-600 hover:text-blue-800 underline">Privacy Policy</a>.</p>
+            <h2 class="text-2xl font-semibold text-gray-800">How it works</h2>
+            <ol class="list-decimal ml-6 space-y-2">
+                <li><strong>Sign in with Google.</strong> Your Google account identifies you to the app. Access is limited to people your organization has invited.</li>
+                <li><strong>Connect Google Slides and pick a template.</strong> You choose one presentation in a Google file picker. The app can open only that file and the reports it creates from it.</li>
+                <li><strong>Connect YouTube.</strong> You choose the Google account that owns your channel. The app reads the channel's analytics; it never changes anything on the channel.</li>
+                <li><strong>Generate a report.</strong> Pick a month, click once, and the finished Google Slides presentation appears in your Drive a minute later.</li>
+            </ol>
         </section>
 
-        <section class="space-y-2">
+        <section class="bg-white rounded-lg shadow-sm p-6 space-y-3">
+            <h2 class="text-2xl font-semibold text-gray-800">The Google permissions it asks for, and why</h2>
+            <p>When you connect, Google shows you exactly what the app may access. Each permission is used for one purpose:</p>
+            <ul class="list-disc ml-6 space-y-2">
+                <li><strong>Your email address</strong> (sign in with Google): to recognize you when you sign in and to show who generated each report. Nothing is sent to this address without your request.</li>
+                <li><strong>Google Drive files you open with this app</strong>: to read the template you pick, to copy it, and to write each report into your Drive. The app cannot see, search or open any other file in your Drive.</li>
+                <li><strong>YouTube Analytics reports, including monetary reports</strong> (read-only): to read views, watch time, subscribers, engagement, traffic sources, search terms, audience demographics and estimated revenue for the month being reported.</li>
+                <li><strong>Your YouTube account</strong> (read-only): to list the channel you own and to look up the titles, publish dates and lengths of the videos named in the report.</li>
+            </ul>
+            <p>Report data is used only while your report is being built, then discarded. The only copy is the presentation in your own Google Drive. Your Google connection is stored encrypted and you can disconnect it in the app at any time, which removes the stored token and revokes the app's access at Google. LiningLink Reports' use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy" class="text-blue-600 hover:text-blue-800 underline">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+            <p>Details are in the <a href="/reports/privacy" class="text-blue-600 hover:text-blue-800 underline">Privacy Policy</a> and the <a href="/reports/terms" class="text-blue-600 hover:text-blue-800 underline">Terms of Service</a>.</p>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-sm p-6 space-y-3">
             <h2 class="text-2xl font-semibold text-gray-800">Getting access</h2>
-            <p>LiningLink Reports is available to business customers of Lining Link LLC. To set up reports for your channel, contact <a href="mailto:admin@lininglink.com" class="text-blue-600 hover:text-blue-800 underline">admin@lininglink.com</a>.</p>
+            <p>LiningLink Reports is available to business customers of Lining Link LLC. To set up reports for your channel, contact <a href="mailto:admin@lininglink.com" class="text-blue-600 hover:text-blue-800 underline">admin@lininglink.com</a>. Existing customers sign in at <a href="https://app.lininglink.com" class="text-blue-600 hover:text-blue-800 underline">app.lininglink.com</a>.</p>
+        </section>
+
+        <section class="space-y-2 text-sm text-gray-600">
+            <h2 class="text-lg font-semibold text-gray-800">About Lining Link LLC</h2>
+            <p>Lining Link LLC builds custom tools and web applications for businesses. LiningLink Reports is one of its products.</p>
+            <p>Lining Link LLC · 251 S Lake Ave Suite 800, Pasadena, CA 91101 · <a href="mailto:admin@lininglink.com" class="underline">admin@lininglink.com</a></p>
         </section>
 
         <footer class="pt-6 border-t text-sm text-gray-500 space-x-3">
             <a href="/reports/privacy" class="underline">Privacy Policy</a>
             <a href="/reports/terms" class="underline">Terms of Service</a>
+            <a href="/" class="underline">Lining Link</a>
             <span>© Lining Link LLC</span>
         </footer>
     </main>
